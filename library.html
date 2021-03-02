@@ -5,21 +5,31 @@
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="library.css">
+        <link rel="stylesheet" href="https://use.typekit.net/rmp2flo.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="container" id="bookDisplay"></div>
-        <div class="container" id="userForm">
-            <label for="bookTitle">Book Title:</label>
-            <input id="bookTitle" class="userinput">
-            <label for="bookAuthor">Book Author:</label>
-            <input id="bookAuthor" class="userinput">
-            <label for="bookPage">Number of Pages:</label>
-            <input id="bookPage" class="userinput">
-            <button id="enterInfo" onclick=addBookToLibrary()>Add Book</button>
+        <div class="row" id="mainDiv">
+            <div class="col-md-4" id="parentDiv">
+                <div class="container" id="titleDiv">
+                    <h1 class="title text2">My Library</h1>
+                </div>
+                <div class="container" id="userForm">
+                    <h3 class="text2">Add to your Library</h3>
+                    <label for="bookTitle" class="text2">Title:</label><br>
+                    <input id="bookTitle" class="text2"><br>
+                    <label for="bookAuthor" class="text2">Author:</label><br>
+                    <input id="bookAuthor" class="text2"><br>
+                    <label for="bookPage" class="text2">Page Length:</label><br>
+                    <input id="bookPage"  class="text2"><br>
+                    <button id="enterInfo" class="text" onclick=addBookToLibrary()>Add Book</button>
+                </div>
+            </div>
+            <!--<div class="container" id="bookDisplay"></div>-->
+            <div class="grid-container" id="bookDisplay"></div>
         </div>
         <script src="library.js"></script>
     </body>
