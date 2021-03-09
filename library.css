@@ -1,25 +1,29 @@
 body {
-    background-color: #B9ACA0 !important;
+    background-color: #B9ACA0;
 }
 
 h1 {
-    font-size: 3vw !important;
+    font-size: 3.5rem;
 }
 
 h3 {
-    font-size: 1.5vw !important;
-    margin-bottom: 1vw;
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
 }
 
 label {
-    font-size: 1vw;
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 input {
     background-color: #B9ACA0;
     border: none;
     border-bottom: 1px solid #483F3B;
-    margin-bottom: 1vw !important;
+    margin-bottom: 1.2rem;
 }
 
 input:focus {
@@ -29,23 +33,23 @@ input:focus {
 .titlePara {
     color: white;
     font-family: freightneocnd-pro, sans-serif;
-    font-weight: 500 !important;
+    font-weight: 500;
     font-style: normal;
-    font-size: 1.8vw;
+    font-size: 2rem;
     text-align: left;
 }
 
 .text {
     font-family: freightneocnd-pro, sans-serif;
-    font-weight: 500 !important;
+    font-weight: 500;
     font-style: normal;
     color: #483F3B;
 }
 
 .text2 {
-    font-family: freight-neo-pro, sans-serif !important;
-    font-weight: 500 !important;
-    font-style: normal !important;
+    font-family: freight-neo-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color: #483F3B;
 }
 
@@ -54,14 +58,14 @@ input:focus {
 }
 
 #titleDiv {
-    margin-top: 2vw;
+    margin-top: 2.5rem;
     padding: 0;
 }
 
 #parentDiv {
     position: relative;
     height: 92vh;
-    margin-left: 2vw;
+    margin-left: 2.6rem;
     box-sizing: border-box;
 }
 
@@ -87,20 +91,20 @@ input:focus {
     color: #B9ACA0;
     background-color: #483F3B;
     border-radius: 20px;
-    width: 15vw;
+    width: 15.5rem;
     height: 350px;
-    padding: 1vw;
-    margin: 1vw;
+    padding: 1.2rem;
+    margin: 1.2rem;
 }
 
 hr {
-    background-color: white !important;
+    background-color: white;
     position: relative;
-    bottom: 0 !important;
+    bottom: 0;
 }
 
 .removeBtn {
-    font-size: 1vw;
+    font-size: 1.6rem;
     transition: .5s ease;
     opacity: 0;
     position: absolute;

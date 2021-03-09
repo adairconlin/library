@@ -13,8 +13,7 @@ function Book(title, author, pages) {
         if(myLibrary.length > 1) {
             myLibrary.shift();
         }
-
-            //create book card display
+        //create book card display
         for(let i = 0; i < myLibrary.length; i++) {
             const card = document.createElement('div');
             card.className = "grid-item text";
